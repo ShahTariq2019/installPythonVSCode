@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=W--_EOzdTHk
+
+
+$ python3.6 -m venv venv
+
+Failing command: ['/venv/bin/python3.6', '-Im', 'ensurepip', '--upgrade', '--default-pip']
+
+Solution:
+
+$ rm -rf venv
+$ apt install python3.6-venv
+$ python3.6 -m venv venv
